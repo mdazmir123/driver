@@ -586,3 +586,35 @@
     font-size: 0.8rem;
   }
 }
+.desktop_error_text.h2.error {
+  color: #ff4040;
+  font-size: 2rem;
+  text-align:center;
+  font-weight: bolder;
+}
+
+  .desktop_error {
+    position: fixed;
+    z-index: 1060;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+}
+@media screen and (max-width: 991px){
+  .desktop_error {
+    display: none;
+}
+}
+
