@@ -617,4 +617,65 @@
     display: none;
 }
 }
+.profile12 {
+  padding: 10px 10px;
+}
+.profile12 h1{
+  display: inline-block;
+    font-size: 1.7rem;
+    line-height: 1em;
+    font-weight: 700;
+    white-space: nowrap;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px #91b6ea;
+}
+.center-img {
+  display: block;
+  text-align: center;
+}
+.center-img img{
+  text-align: center;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 50px;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0px 0px 5px #2d9ed4;
+}
+.center-img h1{
+  display: inline-block;
+    font-size: 1.4rem;
+    line-height: 1em;
+    font-weight: 700;
+    white-space: nowrap;
+    margin-top: 20px;
+    text-shadow: 1px 2px 6px #b4c6df;
+}
+.center-img p{
+  margin-top: 16px;
+    color: #939ca8;
+    font-size: 1.1rem;
+}
+.follow{
+  position: relative;
+  overflow: hidden;
+  padding: 5px 0;
+  margin-top: 18px;
+}
+.follow1{
+  float: left;
+    width: 33%;
+    text-align: center;
+}
+.follow1 h1{
+  margin-top: 4px;
+    font-size: 1.3rem;
+}
+.follow1 p{
+  margin-top: 16px;
+    color: #df9393;
+    font-size: 1.1rem;
+    margin-bottom: 3px;
+}
 
